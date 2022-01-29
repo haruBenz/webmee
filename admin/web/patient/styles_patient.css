@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&display=swap");
+
+:root {
+  --white: rgb(255, 255, 255);
+  ---white-gray: rgb(240, 240, 240);
+  --gray-lighter: rgb(170, 170, 170);
+  --gray: rgb(59, 59, 59);
+  --gray-darker: rgb(19, 19, 19);
+  --violet-lighter: #e996f8;
+  --violet: #e17af3;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.navbar {
+  background: var(--violet);
+  padding: 1em;
+  margin: 0rem 0rem 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  transition: 150ms;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 700px) {
+  .nav-link {
+    transition: 150ms;
+  }
+
+  .nav-link:hover {
+    transform: translateX(1em);
+  }
+}
+
+.d-flex button {
+  background-color: var(--violet-lighter);
+}
+
+.btn-first {
+  background: linear-gradient(180deg, #ffc825 0%, #ffc107 100%);
+}
+
+.center-align {
+  font-size: 15px;
+}
+
+.form-label {
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.table {
+  margin-top: 40px;
+}
+
+.badge {
+  font-weight: normal;
+  color: black;
+  font-size: 15px;
+  width: 160px;
+}
+
+.bg-colerred {
+  background-color: rgb(250, 19, 19);
+  color: white;
+}
+
+.bg-colergreen {
+  background-color: rgb(8, 235, 57);
+}
+
+.table {
+  text-align: center;
+}
+
+.homecontent a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&display=swap");
+
+:root {
+  --white: rgb(255, 255, 255);
+  ---white-gray: rgb(240, 240, 240);
+  --gray-lighter: rgb(170, 170, 170);
+  --gray: rgb(59, 59, 59);
+  --gray-darker: rgb(19, 19, 19);
+  --violet-lighter: #e996f8;
+  --violet: #e17af3;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}

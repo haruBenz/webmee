@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&family=Kanit:ital,wght@1,300&display=swap");
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.center-align {
+  color: black;
+  text-align: center;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 20px;
+}
+
+.text {
+  color: black;
+  font-weight: normal;
+  font-size: 15px;
+  position: absolute;
+  width: 74px;
+  height: 23px;
+  left: 500px;
+  top: 350px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.textbox {
+  margin-bottom: 10px;
+  height: 60px;
+  width: 347px;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+form.login {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.textlast {
+  color: black;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.btn {
+  width: 400px;
+  height: 40px;
+  background: linear-gradient(180deg, #d15fee 0%, #9a32cd 100%);
+  border-radius: 10px;
+}
+
+.form-control {
+  width: 500px;
+}
+
+.form-control {
+  align-items: center;
+}
+
+.navbar {
+  background: #dda0dd;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+}
+
+.error {
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}

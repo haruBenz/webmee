@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&display=swap");
+
+:root {
+  --white: rgb(255, 255, 255);
+  ---white-gray: rgb(240, 240, 240);
+  --gray-lighter: rgb(170, 170, 170);
+  --gray: rgb(59, 59, 59);
+  --gray-darker: rgb(19, 19, 19);
+  --violet-lighter: #e996f8;
+  --violet: #e17af3;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.navbar {
+  background: var(--violet);
+  padding: 1em;
+  margin: 0rem 0rem 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.nav-link {
+  transition: 150ms;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 700px) {
+  .nav-link {
+    transition: 150ms;
+  }
+
+  .nav-link:hover {
+    transform: translateX(1em);
+  }
+}
+
+.d-flex button {
+  background-color: var(--violet-lighter);
+}
+
+.btn-first {
+  background: linear-gradient(180deg, #ffc825 0%, #ffc107 100%);
+}
+/* ------------------------------------------------------------------------------- */
+
+.card {
+  background-color: #e9e9e9;
+}
+
+.card_1 {
+  background-color: #ffcc33;
+  border-radius: 10px;
+}
+
+.card-title-head {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  font-size: 25px;
+}
+
+.card-title-head_1 {
+  display: flex;
+  margin: 1rem 0rem;
+  font-size: 16px;
+}
+
+.card-title {
+  margin: 2rem 5rem;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.from-group {
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+}
+
+.center-align {
+  padding: 2rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.w3-card-4 {
+  margin-bottom: 5rem;
+}
+
+.input-from {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.w3-input {
+  border-radius: 0.3em;
+}
+
+.sizetext {
+  width: 15em;
+}
+
+.sizetextResult {
+  width: 10em;
+}
+
+.sizetextHz {
+  width: 6em;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgb(194, 193, 193);
+}
+
+.sizetextcomment {
+  width: 45em;
+}
+
+.form-check {
+  margin-left: 1.2em;
+}
+
+.card-text {
+  color: rgb(212, 34, 34);
+  font-weight: bold;
+}
+
+.setnumber {
+  border: none;
+  margin-top: 15px;
+  text-align: center;
+}
+
+#quantity1-error,
+#quantity2-error,
+#quantity3-error,
+#quantity4-error,
+#quantity5-error,
+#quantity6-error,
+#quantity7-error {
+  color: rgb(212, 34, 34);
+  font-weight: bold;
+}
+
+/* ----------------------------------------------------------------- */
+.information {
+  padding: 1rem 3rem;
+  margin: 0rem 2rem 2rem 5rem;
+}
+
+.information_1 {
+  cursor: text;
+  padding: 1rem 1rem;
+}
+
+.information_1 b {
+  text-decoration: underline;
+}
+
+.table {
+  text-align: center;
+  table-layout: auto;
+  border: 3px solid #e9e9e9;
+  border-collapse: collapse;
+}
+
+tr,
+td {
+  border: 3px solid #e9e9e9;
+}
+
+thead {
+  background-color: #e996f8;
+  font-size: 1.2rem;
+  border: 3px solid #e9e9e9;
+}
+
+tbody {
+  background-color: white;
+}
+/* -------------------------------------------- */
+
+.information-popup a {
+  text-decoration: none;
+  color: black;
+}
+
+.w3-center h5 {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.item-information {
+  display: flex;
+  flex-direction: row;
+}
+
+.information-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.img-medicine {
+  display: flex;
+  justify-content: center;
+}
+
+.img-medicine img {
+  margin: 1em 1em;
+}
+
+/* --------------------------------------------- */
+
+.btn-last {
+  width: 80px;
+  height: 40px;
+  background-color: rgb(34, 34, 255);
+  color: white;
+  border: 1px solid black;
+}
+
+/* ------------------------------------------------ */
+@media print {
+  @page {
+    margin: 0;
+    size: 21cm 29.7cm landscape;
+  }
+
+  #print,
+  #btn_01,
+  .navbar {
+    display: none;
+  }
+}
+
+.infor {
+  display: flex;
+  justify-content: center;
+}
+.homecontent a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&family=Kanit:ital,wght@1,300&display=swap");
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.nav-link {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.mb-3 {
+  font-weight: bolder;
+}
+
+.navbar-brand {
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}

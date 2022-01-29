@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&display=swap");
+
+:root {
+  --white: rgb(255, 255, 255);
+  ---white-gray: rgb(240, 240, 240);
+  --gray-lighter: rgb(170, 170, 170);
+  --gray: rgb(59, 59, 59);
+  --gray-darker: rgb(19, 19, 19);
+  --violet-lighter: #e996f8;
+  --violet: #e17af3;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.navbar {
+  background: var(--violet);
+  padding: 1em;
+  margin: 0rem 0rem 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  transition: 150ms;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 700px) {
+  .nav-link {
+    transition: 150ms;
+  }
+
+  .nav-link:hover {
+    transform: translateX(1em);
+  }
+}
+
+.d-flex button {
+  background-color: var(--violet-lighter);
+}
+
+.btn-first {
+  background: linear-gradient(180deg, #ffc825 0%, #ffc107 100%);
+}
+
+.card {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+thead {
+  background-color: #e996f8;
+}
+
+.subject1 {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 45px;
+}
+
+.subject2 {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 85px;
+}
+
+.textbox4 {
+  margin-left: 130px;
+  position: absolute;
+  line-height: 20px;
+  top: 100px;
+}
+
+.center_Order {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 550px;
+  margin-top: 45px;
+}
+
+.Topicsecond {
+  position: absolute;
+  width: 350px;
+  height: 52px;
+  left: 100px;
+  top: 400px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+
+  color: #2f2f2f;
+}
+
+.textone {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 45px;
+}
+
+.textboxsub1 {
+  margin-left: 100px;
+  position: absolute;
+  line-height: 20px;
+  top: 45px;
+}
+
+.textboxsub2 {
+  margin-left: 100px;
+  position: absolute;
+  width: 800px;
+  height: 180px;
+  top: 85px;
+}
+
+.texttwo {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 240px;
+}
+
+.textboxsub3 {
+  margin-left: 160px;
+  position: absolute;
+  line-height: 20px;
+  top: 290px;
+}
+
+.textthree {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 360px;
+  margin-top: 240px;
+}
+
+.textfour {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 450px;
+  margin-top: 240px;
+}
+
+.textboxsub4 {
+  margin-left: 600px;
+  position: absolute;
+  width: 300px;
+  top: 288px;
+}
+
+.textfive {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 277px;
+}
+
+.textboxsub5 {
+  margin-left: 160px;
+  position: absolute;
+  line-height: 20px;
+  top: 350px;
+}
+
+.table {
+  text-align: center;
+}
+
+.center-align {
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+.form-control {
+  width: 300px;
+}
+
+.form-control-plaintext {
+  width: 300px;
+}
+
+.btn-coler {
+  width: 200px;
+  height: 40px;
+  background: linear-gradient(180deg, #d15fee 0%, #9a32cd 100%);
+  border-radius: 10px;
+  color: white;
+}
+
+.nav-link {
+  font-size: 15px;
+  color: black;
+}
+
+.label-1 {
+  margin-left: 90px;
+}
+
+.homecontent a {
+  text-decoration: none;
+  color: black;
+}
+
+#btnEmpty {
+  background-color: #ffffff;
+  border: #d00000 1px solid;
+  padding: 5px 10px;
+  color: #d00000;
+  float: right;
+  text-decoration: none;
+  border-radius: 3px;
+  margin: 10px 0px;
+}
+.btnAddAction {
+  padding: 5px 10px;
+  margin-left: 5px;
+  background-color: #efefef;
+  border: #e0e0e0 1px solid;
+  color: #211a1a;
+  float: center;
+  text-decoration: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
